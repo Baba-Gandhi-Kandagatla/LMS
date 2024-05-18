@@ -1,0 +1,113 @@
+[
+    {
+        "year": "1",
+        "sem": "1",
+        "sub": [
+            "Mathematics - I",
+            "Engineering Physics",
+            "Engineering Chemistry",
+            "English",
+            "Engineering Mechanics",
+            "Basic Electrical Engineering",
+            "Engineering Drawing",
+            "Physics Lab",
+            "Workshop Practice"
+        ]
+    },
+    {
+        "year": "1",
+        "sem": "2",
+        "sub": [
+            "Mathematics - II",
+            "Engineering Physics - II",
+            "Engineering Chemistry - II",
+            "Environmental Science",
+            "Computer Programming",
+            "Basic Electronics Engineering",
+            "Engineering Graphics",
+            "Computer Programming Lab",
+            "Language Lab"
+        ]
+    },
+    {
+        "year": "2",
+        "sem": "1",
+        "sub": [
+            "Mathematics - III (Probability and Statistics)",
+            "Data Structures",
+            "Digital Logic Design",
+            "Electrical Circuit Analysis",
+            "Signals and Systems",
+            "Electronic Devices and Circuits",
+            "Data Structures Lab",
+            "Digital Logic Design Lab"
+        ]
+    },
+    {
+        "year": "2",
+        "sem": "2",
+        "sub": [
+            "Complex Variables and Transforms",
+            "Electronic Circuit Analysis",
+            "Electromagnetic Fields and Waves",
+            "Control Systems",
+            "Analog Communications",
+            "Computer Organization",
+            "Electronic Circuits Lab",
+            "Analog Communications Lab"
+        ]
+    },
+    {
+        "year": "3",
+        "sem": "1",
+        "sub": [
+            "Linear IC Applications",
+            "Pulse and Digital Circuits",
+            "Digital Communications",
+            "Antennas and Wave Propagation",
+            "Microprocessors and Microcontrollers",
+            "Management Science",
+            "Digital Communications Lab",
+            "IC Applications Lab"
+        ]
+    },
+    {
+        "year": "3",
+        "sem": "2",
+        "sub": [
+            "VLSI Design",
+            "Digital Signal Processing",
+            "Microwave Engineering",
+            "Embedded Systems",
+            "Data Communication and Networks",
+            "Elective - I",
+            "Microprocessors and Microcontrollers Lab",
+            "Advanced Communications Lab"
+        ]
+    },
+    {
+        "year": "4",
+        "sem": "1",
+        "sub": [
+            "Wireless Communications",
+            "Optical Communications",
+            "Computer Networks",
+            "Radar Systems",
+            "Elective - II",
+            "Elective - III",
+            "Optical Communications Lab",
+            "Microwave Engineering Lab"
+        ]
+    },
+    {
+        "year": "4",
+        "sem": "2",
+        "sub": [
+            "Project Work",
+            "Seminar",
+            "Comprehensive Viva-Voce",
+            "Elective - IV",
+            "Elective - V"
+        ]
+    }
+]
