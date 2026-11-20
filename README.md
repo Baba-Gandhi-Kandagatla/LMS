@@ -2,7 +2,7 @@
 
 ## Introduction
 
-SkillForge is a course platform organized by semester, subject and unit. The public student interface uses the name EduGenie.
+We built SkillForge around the way our courses were organized. Pick a semester, subject and unit, and you can read the lesson, try a quiz or ask about a passage in the material. You’ll see the name EduGenie in the student interface.
 
 ## Tech stack
 
@@ -22,11 +22,11 @@ SkillForge is a course platform organized by semester, subject and unit. The pub
 
 After sign-in, the React client uses the course structure in `src/data.json` to navigate from semester to unit. A reading, quiz and tutor conversation share that unit context. For assessments and tutoring, the client calls the Flask service, which works with ChatPDF document sources. The main student routes are in `src/App.jsx`.
 
-Personalized roadmaps and head-to-head quizzes were also part of the broader project.
+We also explored personalized roadmaps and head-to-head quizzes in the wider project.
 
 ## How it can be improved
 
-A small sample course with a documented test account and a local tutor fixture would let contributors try a complete lesson, quiz and feedback cycle before configuring external services.
+I’d include a short sample course, a test account and a saved tutor response so you could try a lesson, take its quiz and see feedback on your first run.
 
 ## How to run
 
@@ -41,5 +41,3 @@ Run each component in its own terminal with development accounts and sample cour
 ## Screenshots
 
 ![Reading a React lesson with video, quiz and tutor options alongside it.](docs/images/course-reading.png)
-
-Reading view from the SkillForge project interface.
