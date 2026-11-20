@@ -1,12 +1,10 @@
 # SkillForge (EduGenie)
 
-SkillForge, called **EduGenie** in the interface, organizes course material by semester, subject and unit. Students can move from a reading or video to a quiz, then ask a tutor to explain the material using the course document. The student client also includes assessment and interview-practice screens.
+## Introduction
 
-![Reading a React lesson with video, quiz and tutor options alongside it.](docs/images/course-reading.png)
+SkillForge is a course platform organized by semester, subject and unit. The public student interface uses the name EduGenie.
 
-*The SkillForge project interface. This public checkout uses the EduGenie name.*
-
-## How a study session works
+## Tech stack
 
 | Part | What it does |
 | --- | --- |
@@ -14,9 +12,23 @@ SkillForge, called **EduGenie** in the interface, organizes course material by s
 | Express and MongoDB, in `backend/` | Handles registration and sign-in through a Mongoose model. |
 | Flask, in `flask/app.py` | Sends documents and questions to ChatPDF and exposes quiz, assessment and feedback routes to the client. |
 
-Start with `src/App.jsx` to trace the student experience from sign-in through a unit. Personalized roadmaps and head-to-head quizzes were part of the broader project.
+## Features
 
-## Exploring the project locally
+- Open a unit’s readings and videos.
+- Practice with quizzes, assessments and interview questions.
+- Ask a document-based tutor for an explanation tied to the course material.
+
+## The process
+
+After sign-in, the React client uses the course structure in `src/data.json` to navigate from semester to unit. A reading, quiz and tutor conversation share that unit context. For assessments and tutoring, the client calls the Flask service, which works with ChatPDF document sources. The main student routes are in `src/App.jsx`.
+
+Personalized roadmaps and head-to-head quizzes were also part of the broader project.
+
+## How it can be improved
+
+A small sample course with a documented test account and a local tutor fixture would let contributors try a complete lesson, quiz and feedback cycle before configuring external services.
+
+## How to run
 
 Run each component in its own terminal with development accounts and sample course material.
 
@@ -26,6 +38,8 @@ Run each component in its own terminal with development accounts and sample cour
 | Accounts | Configure a development MongoDB connection in `backend/index.js`. From `backend/`, run `npm ci` and `npm start`. The client expects port 3001. |
 | Tutor and assessments | Configure your ChatPDF key and document source IDs in `flask/app.py`. In a Python virtual environment, install Flask, Flask-Cors and Requests, then run `python flask/app.py` from the root. The client expects port 5000. |
 
-## Development opportunity
+## Screenshots
 
-A small sample course with a documented test account and a local tutor fixture would let contributors try a complete lesson, quiz and feedback cycle before configuring external services.
+![Reading a React lesson with video, quiz and tutor options alongside it.](docs/images/course-reading.png)
+
+Reading view from the SkillForge project interface.
